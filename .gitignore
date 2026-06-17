@@ -1,0 +1,37 @@
+# Ignore Java build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+*.log
+*.tmp
+*.temp
+
+# IDE / editor folders
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.code-workspace
+
+# Build directories
+target/
+bin/
+build/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# JDK folder if accidentally included
+oracleJdk-26/
+
+# Ignore nested Git metadata if it reappears
+java_prac/.git/
